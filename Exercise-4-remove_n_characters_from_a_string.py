@@ -15,4 +15,7 @@ while True:
         print("Invalid, please input a number.")
 
         break
-    
+
+    new_character = print("Your new word if we remove the first ", number_input, " letter/s is: ", character_input[number_input: ])
+
+    break
