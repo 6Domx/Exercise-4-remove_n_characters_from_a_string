@@ -1,4 +1,3 @@
-
 # Pseudocode
 # 1. Ask a user to input a string 
 # 2. Analyze the string given by the user
@@ -7,4 +6,6 @@
 
 while True:
     character_input = input("Please type a word: ")
-        
+    print("Your word: ", character_input)
+
+    number_input = input("Please give us a number: ")
