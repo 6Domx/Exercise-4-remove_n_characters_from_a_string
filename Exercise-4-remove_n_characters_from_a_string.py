@@ -13,3 +13,6 @@ while True:
         number_input = int(number_input)
     else:
         print("Invalid, please input a number.")
+
+        break
+    
