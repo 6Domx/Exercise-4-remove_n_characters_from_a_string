@@ -16,6 +16,11 @@ while True:
 
         break
 
+    if number_input > len(character_input):
+        print("Invalid, number must be lower than the character length.")
+
+        break
+
     new_character = print("Your new word if we remove the first ", number_input, " letter/s is: ", 
                           character_input[number_input: ])
 
