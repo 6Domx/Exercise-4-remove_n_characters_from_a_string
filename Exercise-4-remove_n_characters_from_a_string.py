@@ -9,3 +9,7 @@ while True:
     print("Your word: ", character_input)
 
     number_input = input("Please give us a number: ")
+    if number_input.isdigit():
+        number_input = int(number_input)
+    else:
+        print("Invalid, please input a number.")
